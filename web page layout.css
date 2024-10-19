@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+section.landing {
+    background-image: url('images/landing-background.jpg');
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    padding-top: 200px;
+}
+
+section.landing h1 {
+    font-size: 48px;
+}
+
+section.landing p {
+    font-size: 24px;
+}
+
+section.about, section.projects {
+    padding: 50px;
+    text-align: center;
+}
+
+section.projects .project-item {
+    margin: 20px 0;
+}
